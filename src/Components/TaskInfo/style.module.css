@@ -1,0 +1,33 @@
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+
+.tasksTitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  margin-right: 4px;
+}
+
+.totalTasksTitle {
+  color: #4EA8DE;
+}
+
+.finishTasksTitle {
+  color: #8284FA;
+}
+
+
+.totalTasks {
+  width: 25px;
+  height: 19px;
+
+  background: var(--gray-400);
+  border-radius: 999px;
+  color: white;
+  font-size: 12px;
+  padding: 2px 8px;
+  margin-left: 4px;
+}

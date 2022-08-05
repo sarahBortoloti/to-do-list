@@ -1,0 +1,50 @@
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  width: 46rem;
+}
+
+
+.formTask {
+  margin-top: -1.75rem;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 3.5rem;
+}
+
+.formTask input {
+  background-color: var(--gray-500);
+  border: 1px solid var(--gray-700);
+  border-radius: 8px;
+  color: var(--white);
+  width: 100%;
+  padding: 1rem;
+  margin-right: 0.5rem;
+}
+
+.createButton {
+  background: var(--blue-dark);
+  border-radius: 8px;
+  border: none;
+  color: var(--white);
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 0.875rem;
+  
+  display: flex;
+  align-items: center;
+  height: 3.25rem;
+  padding: 1rem;
+  gap: 0.5rem;
+}
+
+.boxInfo {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
